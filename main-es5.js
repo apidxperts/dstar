@@ -1648,14 +1648,20 @@
       _BannerHomeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: _BannerHomeComponent,
         selectors: [["app-banner-home"]],
-        decls: 2,
+        decls: 5,
         vars: 0,
-        consts: [[1, "home-center-banner"], ["src", "assets/img/DSTARLOGO2X2.png", "alt", "image", 1, "home-banner"]],
+        consts: [["id", "stars"], ["id", "stars2"], ["id", "stars3"], [1, "home-center-banner"], ["src", "assets/img/DSTARLOGO2X2.png", "alt", "image", 1, "home-banner"]],
         template: function BannerHomeComponent_Template(rf, ctx) {
           if (rf & 1) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 0);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 4);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
@@ -10359,9 +10365,9 @@
       _HomeOneComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdefineComponent"]({
         type: _HomeOneComponent,
         selectors: [["app-home-one"]],
-        decls: 33,
+        decls: 29,
         vars: 0,
-        consts: [[1, "bg-1"], [1, "d-table"], [1, "d-table-cell"], [1, "container"], ["id", "stars"], ["id", "stars2"], ["id", "stars3"], ["id", "title"], [1, "main-banner-text"], [1, "btn", "btn-primary", 3, "click"], [1, "btn", "btn-primary", "view-work", 3, "click"]],
+        consts: [[1, "bg-1"], [1, "d-table"], [1, "d-table-cell"], [1, "container"], [1, "main-banner-text"], [1, "btn", "btn-primary", 3, "click"], [1, "btn", "btn-primary", "view-work", 3, "click"]],
         template: function HomeOneComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](0, "div", 0);
@@ -10372,55 +10378,47 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](3, "div", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](4, "div", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](4, "div", 4);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](5, "div", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](5, "app-banner-home");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](6, "div", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](6, "h1");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](7, "div", 7);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](7, "The Best ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](8, "div", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](8, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](9, "app-banner-home");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](10, "h1");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](11, "The Best ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](12, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](13, "Digital");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](9, "Digital");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](14, " Experience");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](10, " Experience");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](15, "p");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](11, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](16, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](12, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](17, "a", 9);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](13, "a", 5);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function HomeOneComponent_Template_a_click_17_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function HomeOneComponent_Template_a_click_13_listener() {
               return ctx.onClick("about");
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](18, "Get Started");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](14, "Get Started");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](19, "a", 10);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](15, "a", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function HomeOneComponent_Template_a_click_19_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function HomeOneComponent_Template_a_click_15_listener() {
               return ctx.onClick("work");
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](20, "View Work");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](16, "View Work");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
 
@@ -10434,29 +10432,29 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](21, "app-welcome");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](17, "app-welcome");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](22, "app-about");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](18, "app-about");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](23, "app-who-we-are");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](19, "app-who-we-are");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](24, "app-cta");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](20, "app-cta");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](25, "app-skill");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](21, "app-skill");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](26, "app-funfacts");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](22, "app-funfacts");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](27, "app-how-we-work");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](23, "app-how-we-work");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](28, "app-services");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](24, "app-services");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](29, "app-why-we-different");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](25, "app-why-we-different");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](30, "app-faq");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](26, "app-faq");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](31, "app-feedback");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](27, "app-feedback");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](32, "app-partner");
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](28, "app-partner");
           }
         },
         directives: [_common_banner_home_banner_home_component__WEBPACK_IMPORTED_MODULE_0__.BannerHomeComponent, _common_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_1__.WelcomeComponent, _common_about_about_component__WEBPACK_IMPORTED_MODULE_2__.AboutComponent, _common_who_we_are_who_we_are_component__WEBPACK_IMPORTED_MODULE_3__.WhoWeAreComponent, _common_cta_cta_component__WEBPACK_IMPORTED_MODULE_4__.CtaComponent, _common_skill_skill_component__WEBPACK_IMPORTED_MODULE_5__.SkillComponent, _common_funfacts_funfacts_component__WEBPACK_IMPORTED_MODULE_6__.FunfactsComponent, _common_how_we_work_how_we_work_component__WEBPACK_IMPORTED_MODULE_7__.HowWeWorkComponent, _common_services_services_component__WEBPACK_IMPORTED_MODULE_8__.ServicesComponent, _common_why_we_different_why_we_different_component__WEBPACK_IMPORTED_MODULE_9__.WhyWeDifferentComponent, _common_faq_faq_component__WEBPACK_IMPORTED_MODULE_10__.FaqComponent, _common_feedback_feedback_component__WEBPACK_IMPORTED_MODULE_11__.FeedbackComponent, _common_partner_partner_component__WEBPACK_IMPORTED_MODULE_12__.PartnerComponent],
