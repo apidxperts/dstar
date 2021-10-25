@@ -10789,7 +10789,7 @@
         selectors: [["app-home-one"]],
         decls: 31,
         vars: 0,
-        consts: [[1, "bg-1"], [1, "d-table"], [1, "d-table-cell"], [1, "container"], ["id", "stars"], ["id", "stars2"], ["id", "stars3"], ["id", "title"], [1, "main-banner-text"], [1, "btn", "btn-primary", 3, "click"]],
+        consts: [[1, "bg-1"], [1, "d-table"], [1, "d-table-cell"], ["id", "stars"], ["id", "stars2"], ["id", "stars3"], [1, "container"], ["id", "title"], [1, "main-banner-text"], [1, "btn", "btn-primary", 3, "click"]],
         template: function HomeOneComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](0, "div", 0);
@@ -10798,13 +10798,13 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](2, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](3, "div", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](3, "div", 3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](4, "div", 4);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](5, "div", 5);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](6, "div", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](6, "div", 6);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](7, "div", 7);
 
